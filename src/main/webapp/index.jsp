@@ -83,7 +83,7 @@
             var password = document.getElementById("password").value;
 
             if (username === "testuser" && password === "testpassword") {
-                alert("Login successful!");
+                alert("Let's Start to Ride");
             } else {
                 document.getElementById("errorMessage").textContent = "Invalid username or password. You cannot Ride";
             }
