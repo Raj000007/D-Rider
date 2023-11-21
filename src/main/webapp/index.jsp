@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>D-Riders</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,7 +72,7 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-        <button type="button" id="loginButton">Login</button>
+        <button type="button" id="loginButton">Let's Ride</button>
 
         <p class="error-message" id="errorMessage"></p>
     </form>
@@ -85,7 +85,7 @@
             if (username === "testuser" && password === "testpassword") {
                 alert("Login successful!");
             } else {
-                document.getElementById("errorMessage").textContent = "Invalid username or password. Please try again.";
+                document.getElementById("errorMessage").textContent = "Invalid username or password. You cannot Ride";
             }
         });
     </script>
