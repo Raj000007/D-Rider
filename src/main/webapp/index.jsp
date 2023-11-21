@@ -65,7 +65,7 @@
 <body>
 
     <form id="loginForm">
-        <h2>Login</h2>
+        <h2>D-Riders</h2>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" placeholder="Enter your username" required>
 
